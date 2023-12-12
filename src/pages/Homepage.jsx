@@ -1,51 +1,64 @@
-import { useState } from 'react'
-import {BrowserRouter as Router, Route, Routes}from "react-router-dom"
+import { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "../styles/Homepage.css";
 
-
 function Homepage() {
+
   
-
-
   return (
 
+    
+    
     <div id="homepage">
 
-      <h1>MIA</h1>
-      <h2>HADADI</h2>
-
+      <h2>MIA</h2>
+      <h1>HADADI</h1>
 
       <div id="gallery-section">
+        
+         {/* Animation to the left*/}
 
-
+         {/* A button with an arrow in the animation that says 'View Gallery' */}
+      
       </div>
 
       <div id="about-section">
 
+         {/* Images */}
+
+          {/* Title with text about Mia */}
+
+          {/* A button with an arrow that says 'Read More' */}
 
       </div>
 
       <div id="findme-section">
 
+         {/* Title */}
+
+          {/* Name of Salon displayed over a faded map */}
+
+           {/* A button with an arrow that says 'View Map' */}
 
       </div>
 
       <div id="booking-section">
 
+         {/* Title with text */}
+
+          {/* Heading with text*/}
+
+           {/* Images */}
+
+           {/* Heading with text */}
+
+           {/* A button with an arrow that says 'Book Now' */}
 
       </div>
 
-      
-
-
-
-
-
+       {/* Footer */}
     </div>
-
-    
-   
-  )
+  );
 }
 
 export default Homepage;
