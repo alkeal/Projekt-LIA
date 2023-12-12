@@ -9,7 +9,8 @@ function Homepage() {
 
     
    <section>
-    <h2> Första sidan</h2>
+    <h2> Startsidan</h2>
+    <p></p>
    </section>
   )
 }
