@@ -1,8 +1,9 @@
 import { useState } from 'react'
-//import { Route, Routes } from 'react-router-dom'
 import Homepage from "./pages/Homepage"
 import Infopage from "./pages/Homepage"
 import Bookingpage from "./pages/Homepage"
+import Navbar  from './components/Navbar'
+import Footer from './components/Footer'
 import {BrowserRouter as Router, Route, Routes}from "react-router-dom"
 
 function App() {
