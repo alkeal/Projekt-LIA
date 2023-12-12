@@ -12,21 +12,21 @@ export default function Navbar(){
 
         <div className="Navbar">
 
-
+ <ul>
     <div className="rightSide" id={openLinks ? "open" : "close"}>
       <div className="hiddenLinks">
 
-      <Link  to="/Homepage">Hem</Link>
+     <li><Link  to="/Homepage">Hem</Link></li>
 
-      <Link to="/Bookingpage">Boka tid</Link>
+      <li><Link to="/Bookingpage">Boka tid</Link></li>
 
-      <Link to="/Infopage">Mer information</Link>
+      <li><Link to="/Infopage">Mer information</Link></li>
 
-      <Link to="/Gallerypage">Galleri</Link>
+     <li> <Link to="/Gallerypage">Galleri</Link></li>
 
            </div>
       </div>
-
+</ul>
 
  </div>
 
