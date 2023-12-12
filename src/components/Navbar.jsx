@@ -13,11 +13,22 @@ export default function Navbar(){
         <div className="Navbar">
 
 
+    <div className="rightSide" id={openLinks ? "open" : "close"}>
+      <div className="hiddenLinks">
+
+      <Link  to="/Homepage">Hem</Link>
+
+      <Link to="/Bookingpage">Boka tid</Link>
+
+      <Link to="/Infopage">Mer information</Link>
+
+      <Link to="/Gallerypage">Galleri</Link>
+
+           </div>
+      </div>
 
 
-
-            
-        </div>
+ </div>
 
 
 

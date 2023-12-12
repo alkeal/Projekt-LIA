@@ -26,6 +26,7 @@ function App() {
        <Route path='/Bookingpage'
          element= {<Bookingpage/>} />
         </Routes>
+        <Footer/>
       </Router>
     </div>
   )
