@@ -13,8 +13,10 @@ function App() {
     
     <div className='App'>
 
-      <Routes>
+      <Router>
 
+        <Navbar/>
+       <Routes>
        <Route path='/'
          element= {<Homepage/>} />
 
@@ -23,8 +25,8 @@ function App() {
 
        <Route path='/Bookingpage'
          element= {<Bookingpage/>} />
-
-      </Routes>
+        </Routes>
+      </Router>
     </div>
   )
 }
