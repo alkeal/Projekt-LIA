@@ -32,10 +32,11 @@
 }
 
 
+
 .Navbar ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px ;
+    margin:  20px;
     
  
  }
@@ -44,8 +45,9 @@
  
     color: #333333;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 13.5px;
     position: relative;
+    
    }
  
  
