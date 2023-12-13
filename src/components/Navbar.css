@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
 .Navbar {
 
     width: 100%;
@@ -5,10 +8,11 @@
     background-color:#EDF6F9;
     display: flex;
     flex-direction: row;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    font-weight: 400;
     border-bottom: rgba(0, 0, 0, 0.098) solid 1px;
-    
+   
 
 }
 
@@ -27,19 +31,6 @@
 
 }
 
-.Navbar .a {
-
-    color: #333333;
-    font-family: 'Roboto';
-    font-size: 12px;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: 400;
-    margin: 40px;
-   
-   
-   }
-
 
 .Navbar ul li{
     display: inline-block;
@@ -49,16 +40,16 @@
  
  }
   
- 
  .Navbar ul li a{
  
-  color: #333333;
-  text-decoration: none;
-  font-size: 18px;
-  position: relative;
- }
+    color: #333333;
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+   }
  
- .Navbar ul li a::after{
+ 
+ .Navbar ul li  a::after{
  
    content: '';
    width: 0;
@@ -71,12 +62,15 @@
    
  }
 
-  
-
  
  .Navbar ul li a:hover::after{
   width: 100%;
  
  
+ }
+
+ .Navbar ul li .book{
+
+    color: #006D77;
  }
  
