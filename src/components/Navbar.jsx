@@ -18,11 +18,13 @@ export default function Navbar(){
 
      <li><Link  to="/Homepage">Hem</Link></li>
 
-      <li><Link to="/Bookingpage">Boka tid</Link></li>
-
-      <li><Link to="/Infopage">Mer information</Link></li>
-
      <li> <Link to="/Gallerypage">Galleri</Link></li>
+
+     <li><Link to="/Infopage">Om mig</Link></li>
+
+     <li><Link to="/Infopage">Hitta hit</Link></li>
+
+     <li><Link to="/Bookingpage"><div className="book">Boka tid</div></Link></li>
 
            </div>
       </div>
