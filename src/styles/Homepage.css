@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+body {
+    background: pink;
+}
+
+.homepage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    background: red;
+}
+
+/* NAME SECTION */
+
+.name-section {
+    height: 277px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    font-size: 64px;
+    margin-right: 50%;
+    background: orange;
+    
+}
+
+.name-section h1 {
+    color: #006D77;
+}
+
+.name-section h2 {
+    color: #83C5BE;
+}
+
+/* GALLERY SECTION */
+
+.gallery-section {
+    background: green;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: blue;
+}
+
+/* FINDME SECTION */
+
+.findme-section {
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: magenta;
+
+
+}
+
+/* BOOKING SECTION */
+
+.booking-section {
+    width: 20%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: yellow;
+
+}

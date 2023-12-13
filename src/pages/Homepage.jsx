@@ -9,20 +9,23 @@ function Homepage() {
 
     
     
-    <div id="homepage">
+    <div className="homepage">
 
+      <div className="name-section">
       <h2>MIA</h2>
       <h1>HADADI</h1>
 
-      <div id="gallery-section">
+      </div>
+
+      <div className="gallery-section">
         
-         {/* Animation to the left*/}
+         {/* Animation to the right*/}
 
          {/* A button with an arrow in the animation that says 'View Gallery' */}
       
       </div>
 
-      <div id="about-section">
+      <div className="about-section">
 
          {/* Images */}
 
@@ -32,7 +35,7 @@ function Homepage() {
 
       </div>
 
-      <div id="findme-section">
+      <div className="findme-section">
 
          {/* Title */}
 
@@ -42,7 +45,7 @@ function Homepage() {
 
       </div>
 
-      <div id="booking-section">
+      <div className="booking-section">
 
          {/* Title with text */}
 
