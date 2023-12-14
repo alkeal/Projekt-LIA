@@ -16,15 +16,15 @@ export default function Navbar(){
     <div className="rightSide" id={openLinks ? "open" : "close"}>
       <div className="hiddenLinks">
 
-     <li><Link  to="/Homepage">Hem</Link></li>
+     <li><Link  to="/Homepage">HEM</Link></li>
 
-     <li> <Link to="/Gallerypage">Galleri</Link></li>
+     <li> <Link to="/Gallerypage">GALLERI</Link></li>
 
-     <li><Link to="/Infopage">Om mig</Link></li>
+     <li><Link to="/Infopage">OM MIG</Link></li>
 
-     <li><Link to="/Infopage">Hitta hit</Link></li>
+     <li><Link to="/Infopage">HITTA HIT</Link></li>
 
-     <li><Link to="/Bookingpage"><div className="book">Boka tid</div></Link></li>
+     <li><Link to="/Bookingpage"><div className="book">BOKA TID</div></Link></li>
 
            </div>
       </div>
