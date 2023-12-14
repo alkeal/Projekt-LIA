@@ -17,6 +17,7 @@ function Homepage() {
           <img src={sampleImage} alt="SAMPLE" className="sample-image" />
 
           {/* A button with an arrow in the animation that says 'View Gallery' */}
+          <button id="btn-gallery">VIEW GALLERY → </button>
         </div>
       </div>
 
@@ -25,8 +26,10 @@ function Homepage() {
 
         {/* Title with text about Mia */}
         <h1>ABOUT</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 
-        {/* A button with an arrow that says 'Read More' */}
+        {/* A button with an arrow that says 'Read More'   <button id="btn-about">READ MORE → </button>*/}
+       
       </div>
 
       <div className="findme-section">

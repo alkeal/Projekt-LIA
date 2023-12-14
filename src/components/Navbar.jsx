@@ -16,7 +16,7 @@ export default function Navbar(){
     <div className="rightSide" id={openLinks ? "open" : "close"}>
       <div className="hiddenLinks">
 
-     <li><Link  to="/Homepage">Hem</Link></li>
+     <li><Link  to="/">Hem</Link></li>
 
      <li> <Link to="/Gallerypage">Galleri</Link></li>
 

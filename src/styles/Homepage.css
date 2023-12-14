@@ -35,6 +35,7 @@ body {
     margin-top: 20%;
     font-size: 64px;
     background: orange;
+    letter-spacing: 1.5px;
 }
 
 .name-section h1 {
@@ -60,15 +61,61 @@ body {
     height: auto; 
     object-fit: contain;
 }
+
+#btn-gallery {
+    position: absolute;
+    bottom: 0px;
+    left: 0px; 
+    padding: 10px 20px;
+    background: white; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    
+}
+
+
 /* ABOUT SECTION */
 
 .about-section {
-    width: 10%;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative; 
+    width: 70%;
+    height: 465px;
+    position: relative; 
+    margin-top: 10%; 
     background: blue;
+
+}
+
+.about-section h1 {
+    margin-bottom: 20px; 
+    font-size: 3rem; 
+    color: #006D77; 
+    text-align: left
+
+}
+
+.about-section p {
+    text-align: justify; 
+    text-justify: inter-word; 
+    line-height: 1.6; 
+    font-size: 1rem;
+}
+
+#btn-about {
+    position: absolute;
+    bottom: 0px;
+    right: 0px; 
+    padding: 10px 20px;
+    background: white; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    
 }
 
 /* FINDME SECTION */
