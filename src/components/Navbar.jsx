@@ -7,7 +7,6 @@ export default function Navbar(){
 
     const [openLinks, setOpenLinks] = useState(false)
 
-
     return(
 
         <div className="Navbar">
@@ -18,7 +17,7 @@ export default function Navbar(){
 
      <li><Link  to="/Homepage">HEM</Link></li>
 
-     <li> <Link to="/Gallerypage">GALLERI</Link></li>
+     <li> <Link to="/Gallerypage">{t('GALLERI')}</Link></li>
 
      <li><Link to="/Infopage">OM MIG</Link></li>
 
