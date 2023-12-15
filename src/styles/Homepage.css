@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+    
 }
 body {
     background: pink;
@@ -14,7 +16,7 @@ body {
     align-items: center;
     width: 100%; 
     font-family: 'Poppins', sans-serif;
-    background: red;
+    background: #EDF6F9;
 }
 
 .top-section {
@@ -35,6 +37,8 @@ body {
     margin-top: 20%;
     font-size: 64px;
     background: orange;
+    letter-spacing: 7px;
+    line-height: 5.5rem;
 }
 
 .name-section h1 {
@@ -56,41 +60,161 @@ body {
 }
 
 .sample-image {
-    width: 100%; 
+    width: 90%; 
     height: auto; 
     object-fit: contain;
+    margin-right: 10%;
 }
+
+#btn-gallery {
+    position: absolute;
+    bottom: 0px;
+    left: 0px; 
+    padding: 10px 20px;
+    background: white; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    
+}
+
+
 /* ABOUT SECTION */
 
 .about-section {
-    width: 10%;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 465px;
+    margin-top: 20%; 
+    background: blue;
+
+}
+
+
+.image-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background: blue;
+    justify-content: space-around;
+    align-items: center;
+    height: 465px;
+    margin-right: 20%;
+    
 }
+
+.image-container img {
+    width: 20%;
+}
+
+.about-text {
+    text-align: left; 
+    margin-right: 1%;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+
+.about-text h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: #83C5BE;
+}
+
+#btn-about {
+    padding: 10px 20px;
+    background: white; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+}
+
 
 /* FINDME SECTION */
-
 .findme-section {
-    width: 10%;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
+    margin-top: 20%; 
+    width: 70%;
+    height: 465px;
+    padding: 50px 10%; 
+    background: #EFF6EE; 
+    overflow: hidden;
     background: magenta;
-
-
 }
+  
+  .findme-content {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: 2;
+    text-align: left; 
+    color: white;
+}
+  
+  .findme-content h1 {
+    font-size: 64px;
+    color: #006D77; 
+   
+}
+  
+  .findme-content h2 {
+    text-align: left; 
+    letter-spacing: 1.5px;
+}
+  
+  #btn-findme {
+    z-index: 2;
+    padding: 10px 20px;
+    background: white; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    bottom: 20px; 
+    left: 10%;
+}
+
+.map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: 1; 
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    -webkit-filter: grayscale(100%);
+}
+
+.map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 109, 119, 0.5); 
+    z-index: 1;
+}
+
+  
 
 /* BOOKING SECTION */
 
 .booking-section {
-    width: 10%;
-    height: 100px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 70%;
+    height: 465px;
+    margin-top: 10%; 
     background: yellow;
 }
