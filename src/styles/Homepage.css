@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+    
 }
 body {
     background: pink;
@@ -85,7 +87,7 @@ body {
     justify-content: center;
     width: 70%;
     height: 465px;
-    margin-top: 10%; 
+    margin-top: 20%; 
     background: blue;
 
 }
@@ -106,7 +108,6 @@ body {
 }
 
 .about-text {
-    max-width: 50%; 
     text-align: left; 
     margin-right: 1%;
     font-size: 18px;
@@ -132,25 +133,55 @@ body {
 
 
 /* FINDME SECTION */
-
 .findme-section {
-    width: 10%;
-    height: 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20%; 
+    width: 70%;
+    padding: 50px 10%; 
+    background: #EFF6EE; 
+    position: relative; 
     background: magenta;
-
-
-}
+  }
+  
+  .findme-content {
+    max-width: 50%; 
+    text-align: left; 
+  }
+  
+  .findme-content h1 {
+    font-size: 64px;
+    color: #006D77; 
+    margin-bottom: 20px; 
+  }
+  
+  .findme-content p {
+    text-align: left; 
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+  
+  #btn-findme {
+    padding: 10px 20px;
+    background: white; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+  }
+  
 
 /* BOOKING SECTION */
 
 .booking-section {
-    width: 10%;
-    height: 100px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 70%;
+    height: 465px;
+    margin-top: 10%; 
     background: yellow;
 }

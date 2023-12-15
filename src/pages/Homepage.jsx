@@ -42,12 +42,12 @@ function Homepage() {
       </div>
 
       <div className="findme-section">
-        {/* Title */}
-        <h1>FIND ME</h1>
-
-        {/* Name of Salon displayed over a faded map */}
-
-        {/* A button with an arrow that says 'View Map' */}
+        <div className="findme-content">
+          <h1>FIND ME</h1>
+          <p>Name of Place</p>
+          <button id="btn-findme">VIEW MAP →</button>
+        </div>
+      
       </div>
 
       <div className="booking-section">
