@@ -1,7 +1,7 @@
 {
-    "home": "Home",
-    "gallery": "Gallery",
-    "aboutMe": "About me",
-    "findUs": "Find us",
-    "bookTime": "Book time"
+    "home": "HOME",
+    "gallery": "GALLERY",
+    "aboutMe": "ABOUT ME",
+    "findUs": "FIND US",
+    "bookTime": "BOOK TIME"
 }
