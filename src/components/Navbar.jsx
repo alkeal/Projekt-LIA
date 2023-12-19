@@ -30,15 +30,15 @@ export default function Navbar(){
      <li><Link to="/Infopage">{t('HITTA HIT')}</Link></li>
 
      <li><Link to="/Bookingpage"><div className="book">{t('BOKA TID')}</div></Link></li>
-     <li className="Sweden" onClick={() => swapLanguage('se')}>
+     <li className="Sweden" onClick={() => swapLanguage('sv')}>
   <img src="./src/assets/Sweden.png" alt="Svenska" />
-</li>
-<li className="UnitedKingdom" onClick={() => swapLanguage('en')}>
+     </li>
+     <li className="UnitedKingdom" onClick={() => swapLanguage('en')}>
   <img src="./src/assets/UnitedKingdom.png" alt="English" />
-</li>
-<li className="France" onClick={() => swapLanguage('fr')}>
+     </li>
+     <li className="France" onClick={() => swapLanguage('fr')}>
   <img src="./src/assets/France.png" alt="French" />
-</li>
+    </li>
            </div>
       </div>
 </ul>
