@@ -6,22 +6,13 @@ import frTranslations from "./translate/fr.json";
 
 const resources = {
   en: {
-    translation: {
-      // engelska översättningar här
-      enTranslations,
-    },
+    translation: enTranslations,
   },
   sv: {
-    translation: {
-      // svenska översättningar här
-      svTranslations,
-    },
+    translation: svTranslations,
   },
   fr: {
-    translation: {
-      // franska översättningar här
-      frTranslations,
-    },
+    translation: frTranslations,
   },
 };
 

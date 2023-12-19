@@ -3,12 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { HashRouter as Router } from "react-router-dom";
 import {I18nextProvider} from "react-i18next";
-import i18next from "i18next";
-
-
-i18next.init({
-  interpolation: { escapeValue: false }, 
-});
+import i18n from "./translate/i18n.js"; // Byt ut mot sökvägen till din i18n-konfiguration
 
 
 

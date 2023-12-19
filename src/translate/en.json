@@ -1,7 +1,7 @@
 {
-    "home": "HOME",
-    "gallery": "GALLERY",
-    "aboutMe": "ABOUT ME",
-    "findUs": "FIND US",
-    "bookTime": "BOOK TIME"
+  "HEM": "HOME",
+  "GALLERI": "GALLERY",
+  "OM MIG": "ABOUT ME",
+  "HITTA HIT": "FIND US",
+  "BOKA TID": "BOOK TIME"
 }
