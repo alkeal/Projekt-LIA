@@ -1,0 +1,11 @@
+/* BOOKING SECTION */
+
+.booking-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 465px;
+    margin-top: 40%; 
+    background: yellow;
+}
