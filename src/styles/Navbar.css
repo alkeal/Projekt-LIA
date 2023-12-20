@@ -48,9 +48,25 @@
   color: #006d77;
 }
 
-.rightSide img {
-  width: 5%;
-  height: 5%;
-  margin-right: 100px;
+.flagContainer {
+  background-color: yellow;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-left: 80%;
+  margin-bottom: 5%;
+ 
+}
 
+.flagImages {
+ background-color: blue;
+ width: 200px;
+ position: absolute;
+
+}
+
+.flagImages img{
+  height: 15px;
+  width: 15px;
 }
