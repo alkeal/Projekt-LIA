@@ -15,27 +15,18 @@ function App() {
 
 
   return (
-
-    
     <div className='App'>
-  
       <Router>
-
-        <Navbar/>
-       <Routes>
-       <Route path='/'
-         element= {<Homepage/>} />
-
-       <Route path='/Infopage'
-         element= {<Infopage/>} />
-
-       <Route path='/Bookingpage'
-         element= {<Bookingpage/>} />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/Infopage" element={<Infopage />} />
+          <Route path="/Bookingpage" element={<Bookingpage />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
