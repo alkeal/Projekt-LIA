@@ -1,6 +1,6 @@
 import React from "react";
 import sampleImage from "../assets/sampleimage.jpg";
-import "../styles/GallerySection.css";
+import "../styles/components/GallerySection.css";
 
 function GallerySection() {
   return (

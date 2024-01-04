@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/FindMeSection.css";
+import "../styles/components/FindMeSection.css";
 
 function FindMeSection() {
   return (

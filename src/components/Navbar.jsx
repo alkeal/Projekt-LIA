@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import "../styles/Navbar.css";
+import "../styles/components/Navbar.css";
 import { useTranslation } from "react-i18next";
 
 export default function Navbar() {

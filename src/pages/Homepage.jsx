@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "../styles/Homepage.css";
+import "../styles/pages/Homepage.css";
 import GallerySection from "../components/GallerySection";
 import AboutSection from "../components/AboutSection";
 import FindMeSection from "../components/FindMeSection";
