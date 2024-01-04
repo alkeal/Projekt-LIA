@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/BookingSection.css";
+import "../styles/components/BookingSection.css";
 
 function BookingSection() {
   return (

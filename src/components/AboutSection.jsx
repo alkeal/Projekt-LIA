@@ -1,6 +1,6 @@
 import React from "react";
 import sampleImage from "../assets/sampleimage.jpg";
-import "../styles/AboutSection.css";
+import "../styles/components/AboutSection.css";
 
 function AboutSection() {
   return (

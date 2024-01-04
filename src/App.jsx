@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import Homepage from "./pages/Homepage"
-import Infopage from "./pages/Homepage"
-import Bookingpage from "./pages/Homepage"
+import AboutPage from "./pages/Aboutpage"
+import Bookingpage from "./pages/Bookingpage"
+import GalleryPage from './pages/Gallerypage'
 import Navbar  from './components/Navbar'
 import Footer from './components/Footer'
 import {BrowserRouter as Router, Route, Routes}from "react-router-dom"
@@ -20,8 +21,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/Infopage" element={<Infopage />} />
+          <Route path="/Aboutpage" element={<AboutPage />} />
           <Route path="/Bookingpage" element={<Bookingpage />} />
+          <Route path="/Gallerypage" element={<GalleryPage />} />
         </Routes>
         <Footer />
       </Router>

@@ -7,7 +7,9 @@
     width: 70%;
     height: 465px;
     margin-top: 20%; 
-    background: blue;
+    background: linear-gradient(#FEFBF9, #EDF6F9);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    
 
 }
 
@@ -49,4 +51,3 @@
     letter-spacing: 1.5px;
     margin-top: 30px;
 }
-
