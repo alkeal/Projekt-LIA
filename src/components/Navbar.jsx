@@ -40,7 +40,8 @@ export default function Navbar() {
                 <div className="book">{t("BOKA TID")}</div>
               </Link>
             </li>
-
+           <div className="flagContainer">
+            <div className="flagImages">
             <li className="Sweden" onClick={() => swapLanguage("sv")}>
               <img src="./src/assets/Sweden.png" alt="Svenska" />
             </li>
@@ -50,6 +51,8 @@ export default function Navbar() {
             <li className="France" onClick={() => swapLanguage("fr")}>
               <img src="./src/assets/France.png" alt="French" />
             </li>
+            </div>
+            </div>
           </div>
         </div>
       </ul>
