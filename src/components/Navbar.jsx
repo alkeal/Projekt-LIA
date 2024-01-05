@@ -19,7 +19,7 @@ export default function Navbar() {
         <div className="rightSide" id={openLinks ? "open" : "close"}>
           <div className="hiddenLinks">
             <li>
-              <Link to="/Homepage">{t("HEM")}</Link>
+              <Link to="/">{t("HEM")}</Link>
             </li>
 
             <li>
@@ -28,11 +28,11 @@ export default function Navbar() {
             </li>
 
             <li>
-              <Link to="/Infopage">{t("OM MIG")}</Link>
+              <Link to="/Aboutpage">{t("OM MIG")}</Link>
             </li>
 
             <li>
-              <Link to="/Infopage">{t("HITTA HIT")}</Link>
+              <Link to="/FindMepage">{t("HITTA HIT")}</Link>
             </li>
 
             <li>
