@@ -16,8 +16,25 @@ export default function Navbar() {
   return (
     <div className="Navbar">
       <ul>
+       
+      <div className="flagContainer">
+            <div className="flagImages">
+            <li className="Sweden" onClick={() => swapLanguage("sv")}>
+              <img src="./src/assets/Sweden.png" alt="Svenska" />
+            </li>
+            <li className="UnitedKingdom" onClick={() => swapLanguage("en")}>
+              <img src="./src/assets/UnitedKingdom.png" alt="English" />
+            </li>
+            <li className="France" onClick={() => swapLanguage("fr")}>
+              <img src="./src/assets/France.png" alt="French" />
+            </li>
+            </div>
+            </div>
+            
         <div className="rightSide" id={openLinks ? "open" : "close"}>
+          
           <div className="hiddenLinks">
+            
             <li>
               <Link to="/">{t("HEM")}</Link>
             </li>
@@ -40,19 +57,7 @@ export default function Navbar() {
                 <div className="book">{t("BOKA TID")}</div>
               </Link>
             </li>
-           <div className="flagContainer">
-            <div className="flagImages">
-            <li className="Sweden" onClick={() => swapLanguage("sv")}>
-              <img src="./src/assets/Sweden.png" alt="Svenska" />
-            </li>
-            <li className="UnitedKingdom" onClick={() => swapLanguage("en")}>
-              <img src="./src/assets/UnitedKingdom.png" alt="English" />
-            </li>
-            <li className="France" onClick={() => swapLanguage("fr")}>
-              <img src="./src/assets/France.png" alt="French" />
-            </li>
-            </div>
-            </div>
+           
           </div>
         </div>
       </ul>

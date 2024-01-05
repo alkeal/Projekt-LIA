@@ -14,8 +14,11 @@
   height: 100%;
   display: flex;
   align-items: center;
-  margin-left: 700px;
+  margin-left: 750px;
+  
+  
 }
+
 
 .Navbar ul li {
   display: inline-block;
@@ -54,20 +57,23 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-left: 80%;
-  margin-bottom: 5%;
+  margin-right: 80%;
+  margin-bottom: 0%;
  
 }
 
 .flagImages {
- background-color: blue;
+ background-color: rgb(254, 254, 254);
  width: 200px;
  position: absolute;
- opacity: 0.5;
+ margin-right: 20%;
+ margin-left: 20%;
+ margin-top: 2%;
 
 }
 
 .flagImages img{
   height: 15px;
-  width: 15px;
+  width: 25px;
+  opacity: 0.4;
 }
