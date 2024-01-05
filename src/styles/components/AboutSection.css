@@ -41,13 +41,19 @@
     color: #83C5BE;
 }
 
-#btn-about {
+.btn-about {
+    display: inline-block;
     padding: 10px 20px;
     background: white; 
     color: black; 
     border: none;
+    text-decoration: none;
     cursor: pointer;
     font-size: 15px;
-    letter-spacing: 1.5px;
     margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.btn-about:hover {
+    background-color: #83C5BE;
 }

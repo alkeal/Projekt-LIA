@@ -1,6 +1,7 @@
 import React from "react";
 import sampleImage from "../assets/sampleimage.jpg";
 import "../styles/components/AboutSection.css";
+import { Link } from "react-router-dom";
 
 function AboutSection() {
   return (
@@ -11,16 +12,16 @@ function AboutSection() {
         <img src={sampleImage} alt="Image 3" className="about-image" />
       </div>
       <div className="about-text">
-        <h1>ABOUT</h1>
+        <h1>OM MIG</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
+          Mia Hadadi är en frisör med rötterna i en familj av hantverkare, där
+          skapandet av skönhet har gått i arv. Med en gedigen utbildning från
+          Vidal Sassoon Academy i London och två decennier av erfarenhet från
+          egen salong, har Mia en sällsam förmåga att se och framhäva varje
+          kunds unika stil. Hennes passion för mötet med människor och hennes
+          konstnärliga talang gör varje besök till en speciell upplevelse.
         </p>
-        <button id="btn-about">READ MORE →</button>
+        <Link to="/Aboutpage" className="btn-about">LÄS MER →</Link>
       </div>
     </div>
   );
