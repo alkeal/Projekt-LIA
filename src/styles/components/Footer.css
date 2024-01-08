@@ -12,13 +12,18 @@
 .Information li {
   flex-direction: column;
   text-decoration: none;
-  margin-top: 40%;
+  margin-top: 60%;
   margin-left: 600%;
   color: rgb(249, 248, 245);
-  text-decoration: none;
+  list-style: none;
+  font-size: 12px;
 }
 
 .Information a {
   color: white;
   text-decoration: none;
 }
+
+
+
+

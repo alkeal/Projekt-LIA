@@ -37,10 +37,20 @@ export default function Footer() {
             </Link>
           </li>
         </div>
+ 
+        <div className="ContactsContainer">
+            <div className="ContactIcons">
 
-        <div className="Contacts"></div>
 
-        <div className="SocialMedia"></div>
+            </div>
+           
+        </div>
+       
+        <div className="SocialMediaContainer">
+            <div className="SocialMediaIcons">
+                
+            </div>
+        </div>
       </ul>
     </div>
   );
