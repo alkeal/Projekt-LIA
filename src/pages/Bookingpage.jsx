@@ -21,9 +21,7 @@ export default function Bookingpage() {
           <li>Styling - 1000 kr</li>
           <li>Styling - 1000 kr</li>
         </ul>
-        <a
-          href="https://www.bokadirekt.se/places/ca-company-halsa-och-skonhet-10744?sr=DA1147D6_F780_4B70_888F_145DC48EE155/mia-fris%C3%B6r"
-        >
+        <a href="https://www.bokadirekt.se/places/ca-company-halsa-och-skonhet-10744?sr=DA1147D6_F780_4B70_888F_145DC48EE155/mia-fris%C3%B6r">
           Boka på Bokadirekt.se
         </a>
       </section>
