@@ -1,0 +1,8 @@
+.findme-page {
+    color: #333333; 
+    background: #EDF6F9; 
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
