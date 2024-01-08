@@ -3,6 +3,7 @@ import Homepage from "./pages/Homepage"
 import AboutPage from "./pages/Aboutpage"
 import Bookingpage from "./pages/Bookingpage"
 import GalleryPage from './pages/Gallerypage'
+import FindMepage from './pages/FindMepage'
 import Navbar  from './components/Navbar'
 import Footer from './components/Footer'
 import {BrowserRouter as Router, Route, Routes}from "react-router-dom"
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Aboutpage" element={<AboutPage />} />
           <Route path="/Bookingpage" element={<Bookingpage />} />
           <Route path="/Gallerypage" element={<GalleryPage />} />
+          <Route path="/Findmepage" element={<FindMepage/>} />
         </Routes>
         <Footer />
       </Router>
