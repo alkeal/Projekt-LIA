@@ -1,0 +1,73 @@
+.booking-page {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    background: #EDF6F9;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-info, .contact-form {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 2rem;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booking-info ul li {
+    margin-bottom: 1rem;
+}
+
+.booking-info a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    background-color: #83C5BE;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.booking-info a:hover {
+    background-color: #006D77;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    background-color: #83C5BE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #006D77;
+}
