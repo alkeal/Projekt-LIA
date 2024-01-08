@@ -1,8 +1,52 @@
 .findme-page {
+    font-family: 'Poppins', sans-serif;
     color: #333333; 
     background: #EDF6F9; 
     padding: 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
+
+.findme-page h1 {
+    color: #006D77; 
+    margin-bottom: 2rem;
+}
+  
+  .map-section {
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
+}
+  
+  .map-image {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  .info-section {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+  
+  .contact-details {
+    flex-basis: 100%;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    transition: transform 0.3s ease;
+}
+  
+  .contact-details:hover {
+    transform: translateY(-10px);
+}
+  
