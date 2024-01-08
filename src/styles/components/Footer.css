@@ -1,22 +1,24 @@
 .Footer {
-    width: 100%;
-    height: 300px;
-    background-color: #006D77;
-    display: flex;
-    flex-direction: row;
-    font-family: "Roboto";
-    font-size: 12px;
-    border-top: rgba(0, 0, 0, 0.098) solid 1px;
-  }
+  width: 100%;
+  height: 300px;
+  background-color: #006d77;
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto";
+  font-size: 12px;
+  border-top: rgba(0, 0, 0, 0.098) solid 1px;
+}
 
+.Information li {
+  flex-direction: column;
+  text-decoration: none;
+  margin-top: 40%;
+  margin-left: 600%;
+  color: rgb(249, 248, 245);
+  text-decoration: none;
+}
 
- .Footer .Information li {
-   
-    flex-direction: column;
-    text-decoration: none;
-    margin-top: 40%;
-    margin-right: 20%;
-    margin-left: 70%;
-    color: rgb(249, 248, 245);
-   
-  }
+.Information a {
+  color: white;
+  text-decoration: none;
+}
