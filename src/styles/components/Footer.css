@@ -13,7 +13,7 @@
   flex-direction: column;
   text-decoration: none;
   margin-top: 60%;
-  margin-left: 600%;
+  margin-left: 620%;
   color: rgb(249, 248, 245);
   list-style: none;
   font-size: 12px;
@@ -22,6 +22,17 @@
 .Information a {
   color: white;
   text-decoration: none;
+}
+
+.ContactsContainer {
+
+background-color: rgb(192, 190, 48);
+width: 40px;  
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+margin-left: 1200%;
+margin-top: -400%;
 }
 
 
