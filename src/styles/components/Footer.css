@@ -12,16 +12,37 @@
 .Information li {
   flex-direction: column;
   text-decoration: none;
-  margin-top: 60%;
-  margin-left: 600%;
+  margin-top: 50%;
+  margin-left: 400%;
   color: rgb(249, 248, 245);
   list-style: none;
   font-size: 12px;
+ 
 }
 
 .Information a {
   color: white;
   text-decoration: none;
+}
+
+.ContactsContainer {
+
+background-color: rgba(249, 249, 241, 0);
+width: 40px;  
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+margin-left: 1000%;
+margin-top: -350%;
+list-style: none;
+}
+
+.ContactIcons li{
+  flex-direction: column;
+  height: 80px;
+  color: white;
+  font-size: 12px;
+
 }
 
 
