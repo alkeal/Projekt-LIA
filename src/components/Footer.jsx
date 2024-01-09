@@ -41,9 +41,9 @@ export default function Footer() {
         <div className="ContactsContainer">
             <div className="ContactIcons">
 
-              <li><img src="./src/assets/MapPin.png" alt="MapPin" />Adress, 1234, Stockholm</li>
-              <li><img src="./src/assets/Phone.png" alt="Phone" />Telefonnummer</li>
-              <li><img src="./src/assets/Mail.png" alt="Mail" />minmejl@gmail.com</li>
+              <li><img src="./src/assets/MapPin.png" alt="MapPin" /> Adress, 1234, Stockholm</li>
+              <li><img src="./src/assets/Phone.png" alt="Phone" /> Telefonnummer</li>
+              <li><img src="./src/assets/Mail.png" alt="Mail" /> minmejl@gmail.com</li>
             </div>
            
         </div>
