@@ -12,11 +12,12 @@
 .Information li {
   flex-direction: column;
   text-decoration: none;
-  margin-top: 50%;
+  margin-top: 40%;
   margin-left: 400%;
   color: rgb(249, 248, 245);
   list-style: none;
   font-size: 12px;
+  white-space: nowrap;
  
 }
 
@@ -27,13 +28,13 @@
 
 .ContactsContainer {
 
-background-color: rgba(249, 249, 241, 0);
+background-color: rgba(233, 233, 12, 0.022);
 width: 40px;  
 display: flex;
 justify-content: space-evenly;
 flex-direction: row;
 margin-left: 1000%;
-margin-top: -350%;
+margin-top: -240%;
 list-style: none;
 }
 
@@ -44,6 +45,27 @@ list-style: none;
   font-size: 12px;
 
 }
+
+.SocialMediaContainer {
+
+  background-color: rgba(233, 233, 12, 0.921);
+  width: 70px;  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 1400%;
+  margin-top: -300%;
+  list-style: none;
+  }
+
+.SocialMediaIcons li{
+  
+  display: inline-block;
+  list-style: none;
+  margin: 20%;
+
+}
+
 
 
 

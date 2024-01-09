@@ -51,7 +51,9 @@ export default function Footer() {
        
         <div className="SocialMediaContainer">
             <div className="SocialMediaIcons">
-                
+            <li><img src="./src/assets/Twitter.png" alt="Twitter" /> </li>
+              <li><img src="./src/assets/linkedin.png" alt="linkedin" /> </li>
+              <li><img src="./src/assets/pininterest.png" alt="pininterest" /></li>
             </div>
         </div>
       </ul>
